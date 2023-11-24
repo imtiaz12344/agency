@@ -146,12 +146,15 @@ nav .nav-btn {
 		display: flex;
 		flex-direction: column;
 		position: fixed;
-		width: 80%;
+		width: 100%;
 		align-items: center;
 		justify-content: center;
-		top: 10%;
+		top: 60px;
 		height: 70%;
+		left: 0;
 		display: none;
+		background: white;
+		/* right: 52px; */
 	}
 	nav ul li {
 		border-bottom: 1px solid black;
@@ -167,6 +170,9 @@ nav .nav-btn {
 	.side-nav {
 		display: flex;
 		justify-content: space-between;
+	}
+	nav ul li a {
+		color: black;
 	}
 }
 /* header section end */
