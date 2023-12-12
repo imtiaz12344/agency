@@ -148,21 +148,21 @@ nav .nav-btn {
 		position: fixed;
 		width: 100%;
 		align-items: center;
-		justify-content: center;
-		top: 60px;
-		height: 70%;
+		top: 59px;
+		height: 0%;
 		left: 0;
-		display: none;
-		background: white;
-		/* right: 52px; */
+		right: 0;
+		overflow: hidden;
+		z-index: 100;
 	}
 	nav ul li {
 		border-bottom: 1px solid black;
 		height: 13%;
-		width: 94%;
+		width: 80%;
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		background: #fffcfc;
 	}
 	.menu {
 		display: block;
@@ -170,6 +170,7 @@ nav .nav-btn {
 	.side-nav {
 		display: flex;
 		justify-content: space-between;
+		cursor: pointer;
 	}
 	nav ul li a {
 		color: black;
@@ -196,8 +197,7 @@ section {
 .home .img-container img {
 	height: 100vh;
 	width: 100%;
-	background-size: cover;
-	background-position: center;
+	object-fit: cover;
 }
 .home .home-text {
 	position: absolute;
@@ -244,9 +244,7 @@ section {
 		position: relative;
 	}
 	.home .img-container img {
-		background-size: cover;
-		background-position: center;
-		background-repeat: no-repeat;
+		object-fit: cover;
 	}
 	.home .home-text h1 {
 		font-size: 5rem;
@@ -579,7 +577,7 @@ section {
 	margin: auto;
 	margin-bottom: 20px;
 	transition: filter 0.5s;
-	z-index: 100;
+	z-index: 1;
 }
 .work .bg-white {
 	opacity: 1;

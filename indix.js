@@ -1,15 +1,13 @@
 let list = document.getElementById("list");
 let menu = document.getElementById("menu");
 let img = document.getElementById("menuimg");
-
+list.style.height = "0%";
 menu.addEventListener("click", function () {
-	console.log("hello");
-	if (list.style.display == "none") {
-		list.style.display = "block";
+	if (list.style.height === "0%") {
+		list.style.height = "70%";
 		img.src = "images/close.png";
-		nav.style.display = "flex";
 	} else {
-		list.style.display = "none";
+		list.style.height = "0%";
 		img.src = "images/menu.png";
 	}
 });
@@ -137,39 +135,4 @@ project.addEventListener("click", () => {
 		about3.style.display = "none";
 		about3.style.color = "#717275";
 	}
-});
-
-// animation for home page
-
-let lt = gsap.timeline();
-
-lt.from(".home-text", {
-	opacity: 0,
-	duration: 1,
-	y: -500,
-	color: "green",
-});
-lt.from(".nav-btn", {
-	opacity: 0,
-	duration: 0.5,
-	y: -50,
-});
-lt.from(".logo", {
-	opacity: 0,
-	duration: 0.5,
-	x: -50,
-});
-
-// anime for section
-let ab = gsap.timeline();
-ab.from(".about-header-h2", {
-	opacity: 0,
-	y: -400,
-	duration: 0.5,
-});
-
-ab.from(".first", {
-	opacity: 0,
-	y: 400,
-	duration: 0.4,
 });
