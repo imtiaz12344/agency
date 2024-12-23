@@ -1,9 +1,9 @@
 # 📈 Agency - Digital Marketing Agency Website Clone
 
 ## 📝 Description
-**Agency** is a frontend project created as a clone of a random digital marketing agency website. This project showcases the services offered by a digital marketing agency, providing information about the agency’s approach, team, and portfolio. It is designed to demonstrate frontend development skills and highlight modern web design practices.
+**Agency** is a frontend project that I created based on a design I found online. For my learning experience, I recreated it from scratch using **HTML**, **CSS**, and **JavaScript**. This project showcases the services offered by a digital marketing agency, providing information about the agency’s approach, team, and portfolio. The goal of this project was to demonstrate frontend development skills and to practice modern web design techniques.
 
-Developed for learning purposes, **Agency** uses HTML, CSS, and JavaScript to create a clean, professional, and responsive digital marketing agency website.
+Developed for learning purposes, **Agency** uses **HTML**, **CSS**, and **JavaScript** to create a clean, professional, and responsive digital marketing agency website.
 
 ---
 
@@ -46,7 +46,7 @@ Developed for learning purposes, **Agency** uses HTML, CSS, and JavaScript to cr
 ---
 
 ## 🙌 Acknowledgements
-This project was developed as part of a learning exercise and is a clone of an existing digital marketing agency website.
+This project was developed as part of a learning exercise and is based on a design I found online. I recreated the template into **HTML**, **CSS**, and **JavaScript** from scratch. The content and design are not original, and the project was recreated for educational purposes. The intention was to practice frontend skills and learn modern web design techniques.
 
 ---
 
